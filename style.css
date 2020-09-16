@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_1280.jpg') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(50, 136, 216);
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 60px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40%;
+    padding-top: 50px;
+}
